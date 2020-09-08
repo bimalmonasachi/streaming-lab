@@ -47,7 +47,7 @@ Take a look at the first few lines of the dataset in one file.
 
 
 ### Step3 - Now we will need to do the following tasks:
-* Define the data stream that reads `csv` files dumped to the directory `dataPath`
+* Define the data stream that reads `csv` files dumped to the directory `dataPath` which needs to be changed to the appropriate path when cloned.
 * Control the size of each partition by forcing Spark to processes only 1 file per trigger.
 
 Other notes:
